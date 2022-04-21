@@ -11,12 +11,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true # Allows you to write raw html in your md files
-
 params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description: Bespokelink provides powerful and tailored telephony solutions. We specialise in Microsoft Teams Direct Routing, Cloud PBX, SIP Trunking, Session border Controllers like Ribbon Sonus SBC, AudioCodes SBC, Oracle SBC, and custom SBCs.
+  description:
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/BL-Logo-Color.png
@@ -26,90 +25,90 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Powerful. Tailored.
+    title: Manage. Deploy.
     # Hero subtitle (optional)
-    subtitle: Telephony & Unified Communication Solution.
+    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
     # Button text
-    buttontext: Watch Video
+    buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "https://youtu.be/ykymIT5IL5E"
+    buttonlink: "#"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
-#    clientlogos:
-#    - systek
-#    - tribe
-#    - kromo
-#    - infinite
-#    - gutwork
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: Features
     url: /
   - title: Pricing
     url: /
-  - title: Solutions
+  - title: Dropdown
     sublinks:
-    - title: Ms Teams Voice
-      url: /features
-    - title: CloudPBX
-      url: /features
-    - title: SIP Connectivity
+    - title: Dropdown item
       url: /
-#  - title: Log in
-#    url: /
-#  - title: Sign up
-#    url: /
-#    button: true
-#  sidebar:
-#    # Logo (from /images/logos/___.svg)
-#    logo: fresh-square
-#    sections:
-#    - title: User
-#      icon: user
-#      links:
-#      - text: Profile
-#        url: /
-#      - text: Account
-#        url: /
-#      - text: Settings
-#        url: /
-#    - title: Messages
-#      icon: envelope
-#      links:
-#      - text: Inbox
-#        url: /
-#      - text: Compose
-#        url: /
-#    - title: Images
-#      icon: image
-#      links:
-#      - text: Library
-#        url: /
-#      - text: Upload
-#        url: /
-#    - title: Settings
-#      icon: cog
-#      links:
-#      - text: User settings
-#        url: /
-#      - text: App settings
-#        url: /
+    - title: Dropdown item
+      url: /
+    - title: Dropdown item
+      url: /
+  - title: Log in
+    url: /
+  - title: Sign up
+    url: /
+    button: true
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: fresh-square
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
   section1:
     title: Great power comes
     subtitle: with great responsibility
     tiles:
-    - title: Microsoft Teams Voice
+    - title: App builder
       icon: mouse-globe
       text: This is some explanatory text that is on two rows
-      url: https://bespokelink.memberful.com/join
+      url: /
       buttonText: Free trial
-    - title: Cloud Telephony
+    - title: Cloud integration
       icon: laptop-cloud
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
-    - title: SIP Connectivity
+    - title: Add-ons & plugins
       icon: plug-cloud
       text: This is some explanatory text that is on two rows
       url: /
@@ -153,23 +152,23 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: BL-Logo-Color.png
+    logo: fresh-white-alt.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://linkedin.com/#
+    - link: https://github.com/lucperkins/github-fresh
       # Icons are from Font Awesome
-      icon: linkedin
+      icon: github
+    - link: https://dribbble.com/#
+      icon: dribbble
     - link: https://facebook.com/#
       icon: facebook
-    - link: https://web.whatsapp.com/#
-      icon: whatsapp
     - link: https://twitter.com/lucperkins
       icon: twitter
-    - link: https://google.com/#
-      icon: google
-    bulmalogo: false
+    - link: https://bitbucket.org/#
+      icon: bitbucket
+    bulmalogo: true
     quicklinks:
       column1:
         title: "Product"
